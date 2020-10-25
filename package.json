@@ -1,0 +1,29 @@
+{
+  "name": "cy-visual-tests",
+  "version": "1.0.0",
+  "description": "Visual regression testing using Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JelenaMarjanovic/cy-visual-tests.git"
+  },
+  "keywords": [
+    "cypress",
+    "visual",
+    "testing",
+    "snapshots"
+  ],
+  "author": "Jelena Marjanovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JelenaMarjanovic/cy-visual-tests/issues"
+  },
+  "homepage": "https://github.com/JelenaMarjanovic/cy-visual-tests#readme",
+  "dependencies": {
+    "cypress": "^5.4.0",
+    "cypress-image-snapshot": "^3.1.1"
+  }
+}
