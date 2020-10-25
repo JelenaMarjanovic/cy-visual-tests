@@ -6,6 +6,10 @@ describe('Visual Regression', () => {
   sizes.forEach((size) => {
     pages.forEach((page) => {
       it(`Should match ${page} in resolution ${size}`, () => {
+        let currentTime = new Date(Date.UTC(2020, 1, 1)).getDate();
+
+        cy.clock(currentTime);
+
         cy.setResolution(size);
 
         cy.visit(page);
