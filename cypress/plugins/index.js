@@ -1,4 +1,6 @@
-const { addMatchImageSnapshotPlugin } = require('cypress-image-snapshot');
+const {
+  addMatchImageSnapshotPlugin,
+} = require('cypress-image-snapshot/plugin');
 
 /**
  * @type {Cypress.PluginConfig}
